@@ -3,4 +3,11 @@
   <groupId>org.catcannon.project-zero</groupId>
   <artifactId>project-zero</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.lwjgl.lwjgl</groupId>
+  		<artifactId>lwjgl</artifactId>
+  		<version>2.8.4</version>
+  	</dependency>
+  </dependencies>
 </project>
