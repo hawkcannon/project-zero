@@ -3,6 +3,7 @@ package com.catcannon.projectzero.main;
 import org.lwjgl.LWJGLException;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
+import org.lwjgl.opengl.GL11;
 
 /**
  * Placeholder, for now.
@@ -36,6 +37,9 @@ public class MainGame {
 	}
 	
 	public void update(){
+		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT | GL11.GL_DEPTH_BUFFER_BIT);
+		
+		
 		
 		Display.update();
 	}
